@@ -11,7 +11,7 @@ class SimpleEcho(WebSocket):
     
     def handle(self):
         #print('수신정보' , self.data)
-        #self.send_message('hihi')
+        self.send_message('hihi')
         print('수신정보' , self.data)
         '''
         try:
